@@ -1,4 +1,6 @@
-image: .devcontainer/Dockerfile
+image:
+  file: .devcontainer/Dockerfile
+  context: .devcontainer
 
 tasks:
   - init: pip install -r requirements.txt
